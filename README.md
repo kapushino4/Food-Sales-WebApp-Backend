@@ -72,7 +72,7 @@ npm install
 ini
 Copy
 Edit
-PORT=3000
+PORT=3001
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_db_password
@@ -94,8 +94,9 @@ npm start
 bash
 Copy
 Edit
+node server
 npm run dev
-หลังจากรันเสร็จ เซิร์ฟเวอร์จะฟังที่ http://localhost:3000
+หลังจากรันเสร็จ เซิร์ฟเวอร์จะฟังที่ http://localhost:3001
 
 API Endpoints หลัก (ตัวอย่าง)
 Method Path คำอธิบาย
